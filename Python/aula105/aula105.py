@@ -2,9 +2,11 @@ import re
 
 txt = "O Gabriel amigo do Miguel"
 
+#Verificar se a string começa com "O" e termina com "Miguel"
+
 x = re.search("^O.*Miguel$", txt)
 
 if x:
-    print("Sim! nos temos uma correspondencia!")
+    print("SIM! Nos temos uma correspondência!")
 else:
-    print("Nemhuma correspondecia!")
+    print("Nenhuma correspondência!")

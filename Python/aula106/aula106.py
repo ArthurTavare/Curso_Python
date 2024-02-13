@@ -1,10 +1,10 @@
-import re 
+import re
 
 txt = "O calor do motor da moto"
 
 x = re.search("\s", txt)
 
-print("O primeiro espaco em branco esta na posicao:", x.start)
+print("O primeiro espaço em branco esta na posição:", x.start())
 
-x = re.search("portugal", txt)
+x = re.search("Portugal", txt)
 print(x)

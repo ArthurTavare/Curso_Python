@@ -1,2 +1,3 @@
-# Curso_Python
-curso de aprendizado Python teste
+a =  200
+
+print(a)
